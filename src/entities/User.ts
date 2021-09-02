@@ -11,7 +11,7 @@ export class User {
         Object.assign(this, props);
 
         if (!id) {
-            this.id == uuid();
+            this.id = uuid();
         }
     }
 }
